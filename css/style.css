@@ -1086,14 +1086,34 @@ textarea.input {
     .home-content img{
         height: 350px;
     }   
-    .manit{
+    .manit img{
       margin-left: -80px;
+      height: 100px;
+      width: 100px;
+      margin-top: 80px;
     }
-    .iste{
+    .iste img{
       margin-right: -80px;
+      height: 100px;
+      width: 100px;
+      margin-top: 80px
     }
 }
 @media only screen and (max-width: 1400px){
+    .manit{
+      margin-left: 0px;
+      height: 100px;
+      width: 100px;
+      margin-top: 80px;
+    }
+    .iste{
+      margin-right: 0px;
+      height: 100px;
+      width: 100px;
+      margin-top: 80px;
+    }
+}
+@media only screen and (max-width: 700px){
     .manit{
       margin-left: 0px;
     }
