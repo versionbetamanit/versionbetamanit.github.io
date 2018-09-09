@@ -1086,6 +1086,20 @@ textarea.input {
     .home-content img{
         height: 350px;
     }   
+    .manit{
+      margin-left: -80px;
+    }
+    .iste{
+      margin-right: -80px;
+    }
+}
+@media only screen and (max-width: 1400px){
+    .manit{
+      margin-left: 0px;
+    }
+    .iste{
+      margin-right: 0px;
+    }
 }
 @media only screen and (max-width: 400px){
     .home-content img{
