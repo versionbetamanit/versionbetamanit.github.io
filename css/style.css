@@ -1086,7 +1086,6 @@ textarea.input {
     width: 100%;
   }
 }
-
 @media only screen and (max-width: 10000px){
     .home-content img{
         height: 300px;
