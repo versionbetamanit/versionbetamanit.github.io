@@ -675,6 +675,11 @@ textarea.input {
 	EVENTS
 ===========================================================*/
 
+.events-wrapper{
+
+  justify-content: center;
+  margin: auto;
+}
 .event {
   position: relative;
 }
@@ -1084,7 +1089,7 @@ textarea.input {
 
 @media only screen and (max-width: 10000px){
     .home-content img{
-        height: 350px;
+        height: 300px;
     }   
     .manit img{
       margin-left: -80px;
@@ -1123,7 +1128,7 @@ textarea.input {
 }
 @media only screen and (max-width: 400px){
     .home-content img{
-        height: 180px;
+        height: 150px;
     }   
 }
 
