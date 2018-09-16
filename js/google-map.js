@@ -193,12 +193,12 @@ var style = [
 
 // Set google map options
 var options = {
-	center: position,
-	zoom: 14,
-	mapTypeControl: false,
-	streetViewControl: false,
-	scrollwheel: false,
-	styles: style
+    center: position,
+    zoom: 14,
+    mapTypeControl: false,
+    streetViewControl: false,
+    scrollwheel: false,
+    styles: style
 }
 
 // Init Map

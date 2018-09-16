@@ -141,6 +141,7 @@ textarea.input {
   top: 0;
   right: 0;
   bottom: 0;
+  
   background-size: cover;
   z-index: -1;
 }
@@ -411,7 +412,15 @@ textarea.input {
   text-transform: uppercase;
   color: #0b0f28;
 }
-
+.masco{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  opacity: 0.9;
+  padding: 20px;
+  border-radius: 40px;
+  background-color: #ffffff;
+}
 /*=========================================================
 	GALERY
 ===========================================================*/
@@ -678,6 +687,7 @@ textarea.input {
 .events-wrapper{
 
   justify-content: center;
+  opacity: 1;
   margin: auto;
 }
 .event {
@@ -796,7 +806,11 @@ textarea.input {
   -webkit-transition: 0.3s opacity;
   transition: 0.3s opacity;
 }
+.spons{
+  display: inline-block;
+  width: 100%;
 
+}
 .sponsor>img {
   width: 75%;
 }
@@ -1091,30 +1105,30 @@ textarea.input {
         height: 300px;
     }   
     .manit img{
-      margin-left: -80px;
+      margin-left: 70px;
       height: 100px;
       width: 100px;
-      margin-top: 80px;
+      margin-top: 30px;
     }
     .iste img{
-      margin-right: -80px;
+      margin-right: 70px;
       height: 100px;
       width: 100px;
-      margin-top: 80px
+      margin-top: 30px
     }
 }
-@media only screen and (max-width: 1400px){
-    .manit{
+@media only screen and (max-height: 1000px){
+    .manit img{
       margin-left: 0px;
       height: 100px;
       width: 100px;
-      margin-top: 80px;
+      margin-top: 120px;
     }
-    .iste{
+    .iste img{
       margin-right: 0px;
       height: 100px;
       width: 100px;
-      margin-top: 80px;
+      margin-top: 120px;
     }
 }
 @media only screen and (max-width: 700px){
@@ -1180,3 +1194,26 @@ textarea.input {
                 display: none;
             }
         }
+
+        /*Mascot*/
+        #mascot{
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+          align-items: center;
+          width: 100%;
+
+        }
+
+        @media only screen and (max-width: 780px) {
+            #mascot {
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+            }
+
+            #mascot .about-content{
+                text-align: center !important;
+            }
+        }
+

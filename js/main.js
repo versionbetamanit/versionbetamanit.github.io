@@ -6,6 +6,13 @@
 		target: '#nav',
 		offset: $(window).height() / 2
 	});
+
+	// Image margin
+	 //var height = parseFloat($("#header.transparent-navbar").css("height"));
+	 //height = height + 30 +"px";
+	 //console.log(height);
+	 //$("#image-top").css("margin-top", height);
+
 	//preloader
 	var final = new Date(2018, 9, 26);
             var today = new Date();
@@ -103,4 +110,11 @@
 		});
 	});
 
+	
+	// $(window).resize(function(){
+	// 	var height = parseFloat($("#header.transparent-navbar").css("height"));
+	// 		height = height + 100 +"px";
+	// 		console.log(height);
+	// 	$("#image-top").css("margin-top", height);
+	// });
 })(jQuery);
