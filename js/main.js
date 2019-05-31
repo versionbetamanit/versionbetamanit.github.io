@@ -14,14 +14,7 @@
 	 //$("#image-top").css("margin-top", height);
 
 	//preloader
-	var final = new Date(2018, 9, 26);
-            var today = new Date();
-            var days = parseInt((final - today) / (60 * 60 * 24 * 1000));
-            if (days == 1) {
-                $("#daysToGo").html(days + " Day To Go");
-            } else {
-                $("#daysToGo").html(days + " Days To Go");
-            }
+	
             $(document).ready(function () {
                 setTimeout(function () {
                     $("#content").slideUp();
