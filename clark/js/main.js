@@ -45,7 +45,7 @@
    // Burger Menu
 	var burgerMenu = function() {
 
-		$('body').on('click', 'body', function(event){
+		$('body').on('click', function(event){
 
 			event.preventDefault();
 
