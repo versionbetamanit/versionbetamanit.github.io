@@ -46,12 +46,15 @@
 	var burgerMenu = function() {
 
 		$('body').on('click', function(event){
-
+			console.log(3);
 			event.preventDefault();
 
 			if ( $('#ftco-nav').is(':visible') ) {
+				console.log('re');
 				$(this).removeClass('active');
+				$('.js-fh5co-nav-toggle').addClass("Collapsed");
 			} else {
+				console.log('ad');
 				$(this).addClass('active');	
 			}
 
@@ -107,24 +110,24 @@
 	};
 	carousel();
 
-	// $('nav .dropdown').hover(function(){
-	// 	var $this = $(this);
-	// 	// 	 timer;
-	// 	// clearTimeout(timer);
-	// 	$this.addClass('show');
-	// 	$this.find('> a').attr('aria-expanded', true);
-	// 	// $this.find('.dropdown-menu').addClass('animated-fast fadeInUp show');
-	// 	$this.find('.dropdown-menu').addClass('show');
-	// }, function(){
-	// 	var $this = $(this);
-	// 		// timer;
-	// 	// timer = setTimeout(function(){
-	// 		$this.removeClass('show');
-	// 		$this.find('> a').attr('aria-expanded', false);
-	// 		// $this.find('.dropdown-menu').removeClass('animated-fast fadeInUp show');
-	// 		$this.find('.dropdown-menu').removeClass('show');
-	// 	// }, 100);
-	// });
+	$('nav .dropdown').hover(function(){
+		var $this = $(this);
+		// 	 timer;
+		// clearTimeout(timer);
+		$this.addClass('show');
+		$this.find('> a').attr('aria-expanded', true);
+		// $this.find('.dropdown-menu').addClass('animated-fast fadeInUp show');
+		$this.find('.dropdown-menu').addClass('show');
+	}, function(){
+		var $this = $(this);
+			// timer;
+		// timer = setTimeout(function(){
+			$this.removeClass('show');
+			$this.find('> a').attr('aria-expanded', false);
+			// $this.find('.dropdown-menu').removeClass('animated-fast fadeInUp show');
+			$this.find('.dropdown-menu').removeClass('show');
+		// }, 100);
+	});
 
 
 	$('#dropdown04').on('show.bs.dropdown', function () {
